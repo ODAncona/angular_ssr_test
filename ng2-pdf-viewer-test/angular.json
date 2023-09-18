@@ -104,7 +104,8 @@
             "outputPath": "dist/ng2-pdf-viewer-test/server",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json",
-            "inlineStyleLanguage": "scss"
+            "inlineStyleLanguage": "scss",
+            "externalDependencies": ["canvas"]
           },
           "configurations": {
             "production": {
